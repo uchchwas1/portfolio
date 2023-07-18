@@ -301,9 +301,9 @@
 		            speed: 200,
 		            loop:true,
 		            strings: [
-		              'Designer',
+		              // 'Designer',
 		              'Developer',
-                  'Cpanel'
+                  'Problem Solver'
 		            ],
 		            breakLines: false
 		        }); 

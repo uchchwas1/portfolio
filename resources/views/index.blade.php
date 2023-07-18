@@ -47,7 +47,7 @@
     <div class="mob-header">
         <div class="d-flex">
             <div class="navbar-brand">
-                <a class="logo-text" href="../index.html">
+                <a class="logo-text" href="{{route('home')}}">
                     Raquel
                 </a>
             </div>
@@ -64,7 +64,7 @@
         <div class="scroll-bar">
             <div class="hl-top">
                 <div class="hl-logo">
-                    <a href="../index.html">
+                    <a href="{{route('home')}}">
                         N
                     </a>
                 </div>
@@ -130,16 +130,16 @@
                                 <span class="ti-container"></span>
                               <span style="undefined" class="ti-cursor">|</span></span>
                             </h3>
-                            <p class="lead">Full-stack Developer | UX/UI Designer | Freelancer</p>
-                            <p class="desc">I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
+                            <p class="lead">Backend Developer</p>
+                            <p class="desc">From Development to Deployment, I turn ideas into reality, crafting digital solutions that transcend lines of code. With a passion for innovation and a commitment to excellence, I create software experiences that leave a lasting impact on users and businesses alike. Embracing the challenges of the ever-changing tech landscape, I relish in continuous learning, empowering myself to build the future, one project at a time.</p>
                             <div class="btn-bar">
-                                <a class="font-alt" href="#">Donwload CV</a>
+                                <a class="font-alt" href="{{url('doc/Uchchwas_Das_Software_Engineer.pdf')}}">Donwload CV</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="hb-me" style="background-image: url({{url('img/home-banner.png')}});"></div>
+            <div class="hb-me" style="background-image: url({{url('img/uchchwas_das.jpg')}});"></div>
         </section>
         <!-- End Home -->
         <!-- about us -->
@@ -172,8 +172,8 @@
                                 <h3>Biography</h3>
                             </div>
                             <div class="about-text">
-                                <p>I'm a Freelancer Front-end Developer with over 3 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
-                                <p>I'm a Freelancer Front-end Developer with over 3 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
+                                <p> Over the last four years, I have been developing different projects for academic purposes and have one year plus job experience mentioned in my CV. The technologies that I use daily are PHP, MySQL, C, C++, Java, etc. And, I have done many online contests, also participate ACM ICPC Dhaka Regional Contest two times. And I have good knowledge of Data structures and Algorithms. </p>
+                                <p> I aim to come to a point in my career where I hope to advance my already expansive developing and programming knowledge by learning new technologies and working on challenging projects. I am a quick learner, focused, and dedicated to what is expected of me. I enjoy learning new skills.</p>
                             </div>
                             <div class="info-list">
                                 <div class="row">
@@ -210,10 +210,10 @@
                                                 <label>Email: </label>
                                                 <span>uchchwasdasdev@gmail.com</span>
                                             </li>
-                                            <li>
+                                            {{-- <li>
                                                 <label>Skype: </label>
                                                 <span>nairob.40</span>
-                                            </li>
+                                            </li> --}}
                                             <li>
                                                 <label>Freelance: </label>
                                                 <span>Available</span>
@@ -254,7 +254,7 @@
                         <div class="feature-box-01">
                             <i class="icon theme-bg icon-target"></i>
                             <div class="feature-content">
-                                <h5>SEO Marketing</h5>
+                                <h5>Deployment</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </div>
@@ -363,16 +363,16 @@
                         <div class="row">
                             <div class="col-md-4 col-xl-3">
                                 <div class="rb-left">
-                                    <h6>Front-end Developer</h6>
-                                    <label>WeLab | Remote</label>
-                                    <p>Jan 2019 - Present</p>
+                                    <h6>Jr. Software Engineer</h6>
+                                    <label>Arena Phone BD Ltd.</label>
+                                    <p>May, 2022 - Present</p>
                                     <div class="rb-time">Full Time</div>
                                 </div>
                             </div>
                             <div class="col-md-8 col-xl-9">
                                 <div class="rb-right">
                                     <h6>About Company</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                                    <p>Working as a Junior Software Engineer in Arena Phone BD Ltd.</p>
                                 </div>
                             </div>
                         </div>
@@ -381,16 +381,16 @@
                         <div class="row">
                             <div class="col-md-4 col-xl-3">
                                 <div class="rb-left">
-                                    <h6>Front-end Developer</h6>
-                                    <label>WeLab | Remote</label>
-                                    <p>Jan 2019 - Present</p>
+                                    <h6>Trainee Software Engineer</h6>
+                                    <label>IT Corner Bangladesh, Dhaka</label>
+                                    <p>Feb, 2022 - Apr, 2022</p>
                                     <div class="rb-time">Full Time</div>
                                 </div>
                             </div>
                             <div class="col-md-8 col-xl-9">
                                 <div class="rb-right">
                                     <h6>About Company</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                                    <p>Working as a Trainee Software Engineer in IT Corner Bangladesh.</p>
                                 </div>
                             </div>
                         </div>
@@ -399,16 +399,16 @@
                         <div class="row">
                             <div class="col-md-4 col-xl-3">
                                 <div class="rb-left">
-                                    <h6>Front-end Developer</h6>
-                                    <label>WeLab | Remote</label>
-                                    <p>Jan 2019 - Present</p>
-                                    <div class="rb-time">Full Time</div>
+                                    <h6>Online Internship</h6>
+                                    <label>Business Automation Ltd, Dhaka</label>
+                                    <p>Dec, 2021 - Feb, 2022</p>
+                                    <div class="rb-time">Part Time</div>
                                 </div>
                             </div>
                             <div class="col-md-8 col-xl-9">
                                 <div class="rb-right">
                                     <h6>About Company</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                                    <p>Worked as an Intern in Business Automation Ltd.</p>
                                 </div>
                             </div>
                         </div>
@@ -718,15 +718,15 @@
                             <ul>
                                 <li class="media">
                                     <i class="ti-map"></i>
-                                    <span class="media-body">123 Stree New York City , United States Of America 750065.</span>
+                                    <span class="media-body">Badda Link R/D, Dhaka</span>
                                 </li>
                                 <li class="media">
                                     <i class="ti-email"></i>
-                                    <span class="media-body">support@domain.com</span>
+                                    <span class="media-body">uchchwasdasdev@gmail.com</span>
                                 </li>
                                 <li class="media">
                                     <i class="ti-mobile"></i>
-                                    <span class="media-body">+044 9696 9696 3636</span>
+                                    <span class="media-body">+880 1785904633</span>
                                 </li>
                             </ul>
                         </div>
@@ -771,9 +771,7 @@
                         <div class="google-map">
                             <div class="embed-responsive embed-responsive-21by9">
                                 
-                                <iframe class="embed-responsive-item" 
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3151.840107317064!2d144.955925!3d-37.817214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1520156366883" 
-                                allowfullscreen=""></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.0668238157846!2d90.42152835375963!3d23.78063464219629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7853d0881db%3A0x243f856bfe5481fc!2sDhaka%201212!5e0!3m2!1sen!2sbd!4v1689710638396!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>

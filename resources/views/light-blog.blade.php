@@ -10,7 +10,7 @@
     <meta name="keywords" content="Nairo - Portfolio Template">
     <meta name="description" content="Nairo - Portfolio Template">
     <!-- title -->
-    <title>Nairo - Portfolio Template</title>
+    <title>Uchchwas - Portfolio Template</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- plugin CSS -->

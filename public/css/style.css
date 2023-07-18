@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Project:    Nairo Personal Portfolio
+Project:  Personal Portfolio
 Version:    1.0
 Primary use:    pxdraft
 -------------------------------------------------------------------*/
@@ -585,7 +585,12 @@ mark {
   display: block;
   font-size: 12px;
 }
-.article .article-content h1, .article .article-content h2, .article .article-content h3, .article .article-content h4, .article .article-content h5, .article .article-content h6 {
+.article .article-content h1,
+.article .article-content h2,
+.article .article-content h3,
+.article .article-content h4,
+.article .article-content h5,
+.article .article-content h6 {
   color: #fff;
   font-weight: 500;
   margin-bottom: 15px;
@@ -998,10 +1003,12 @@ mark {
   color: #0b0b13;
   font-weight: 500;
 }
-.home-banner .hb-top-fixed .hb-lang li:hover, .home-banner .hb-top-fixed .hb-lang li.active {
+.home-banner .hb-top-fixed .hb-lang li:hover,
+.home-banner .hb-top-fixed .hb-lang li.active {
   background: #ff9301;
 }
-.theme-light .home-banner .hb-top-fixed .hb-lang li:hover a, .theme-light .home-banner .hb-top-fixed .hb-lang li.active a {
+.theme-light .home-banner .hb-top-fixed .hb-lang li:hover a,
+.theme-light .home-banner .hb-top-fixed .hb-lang li.active a {
   color: #fff;
 }
 .home-banner .hb-me {
@@ -1606,7 +1613,7 @@ mark {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  height: calc(2em + .75rem + 2px);
+  height: calc(2em + 0.75rem + 2px);
 }
 .contact-form .form-control.invalid {
   border-color: #dc3545 !important;
