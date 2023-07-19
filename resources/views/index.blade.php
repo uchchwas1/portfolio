@@ -7,10 +7,10 @@
     <meta name="author" content="themepaa">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="Nairo - Portfolio Template">
-    <meta name="description" content="Nairo - Portfolio Template">
+    <meta name="keywords" content="Uchchwas - Portfolio">
+    <meta name="description" content="Uchchwas - Portfolio">
     <!-- title -->
-    <title>Nairo - Portfolio Template</title>
+    <title>Uchchwas - Portfolio</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- plugin CSS -->
@@ -32,6 +32,14 @@
 
         [data-typeitid='ggapp4x83u89www1ujvox'] .ti-cursor {
           animation: blink-ggapp4x83u89www1ujvox 1s infinite;
+        }
+
+        .feature-box-01{
+            padding: 50px;
+        }
+        .testimonial-01{
+            height: 210px;
+            border-radius: 46px;
         }
     </style>
 </head>
@@ -65,7 +73,7 @@
             <div class="hl-top">
                 <div class="hl-logo">
                     <a href="{{route('home')}}">
-                        N
+                        U
                     </a>
                 </div>
             </div>
@@ -153,10 +161,10 @@
                                     <img src="{{asset('img/about-me.jpg')}}" title="" alt="">
                                 </div>
                                 <div class="nav social-icons justify-content-center">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/uchchwas/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://twitter.com/uchchwas_das"><i class="fab fa-twitter"></i></a>
                                     <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.linkedin.com/in/uchchwas-das-61526399/"><i class="fab fa-linkedin-in"></i></a>
                                     <a href="#"><i class="fab fa-pinterest"></i></a>
                                 </div>
                             </div>
@@ -214,10 +222,10 @@
                                                 <label>Skype: </label>
                                                 <span>nairob.40</span>
                                             </li> --}}
-                                            <li>
+                                            {{-- <li>
                                                 <label>Freelance: </label>
                                                 <span>Available</span>
-                                            </li>
+                                            </li> --}}
                                         </ul>
                                     </div>
                                 </div>
@@ -236,8 +244,8 @@
                         <div class="feature-box-01">
                             <i class="icon theme-bg icon-mobile"></i>
                             <div class="feature-content">
-                                <h5>Web Design</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h5>Software Development</h5>
+                                <p>I always strive to serve with the most efficient and user-friendly software.</p>
                             </div>
                         </div>
                     </div>
@@ -246,7 +254,7 @@
                             <i class="icon theme-bg icon-desktop"></i>
                             <div class="feature-content">
                                 <h5>Web Development</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>I can develop both static and dynamic websites in a short period of time.</p>
                             </div>
                         </div>
                     </div>
@@ -255,15 +263,15 @@
                             <i class="icon theme-bg icon-target"></i>
                             <div class="feature-content">
                                 <h5>Deployment</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>I have multiple deployment experiences in both personal and official work.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- separated -->
-                <div class="separated"></div>
+                {{-- <div class="separated"></div> --}}
                 <!-- End separated -->
-                <div class="title">
+                 {{-- <div class="title">
                     <h3>Awards.</h3>
                 </div>
                 <div class="row">
@@ -300,52 +308,42 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>  --}}
                 <!-- separated -->
-                <div class="separated"></div>
+                 <div class="separated"></div>
                 <!-- End separated -->
                 <div class="title">
-                    <h3>Testimonials.</h3>
+                    <h3>Education.</h3>
                 </div>
                 <div class="owl-carousel" data-items="2" data-nav-dots="true" data-md-items="2" data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30" data-autoplay="true">
                     <div class="testimonial-01 media">
                         <div class="avatar">
-                            <img src="{{asset('img/team-1.jpg')}}" title="" alt="">
+                            <img src="{{asset('img/nsu.jpeg')}}" title="" alt="">
                         </div>
                         <div class="media-body">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            <h6>Jennifer Lutheran</h6>
-                            <span>CEO at pxdraft</span>
+                            <h5>B.Sc. in Computer Science and Engineering</h5>
+                            <span>Institute: </span><h6>North South University, Dhaka</h6>
+                            <span>2016 - 2021</span>
                         </div>
                     </div>
                     <div class="testimonial-01 media">
                         <div class="avatar">
-                            <img src="{{asset('img/team-2.jpg')}}" title="" alt="">
+                            <img src="{{asset('img/feni-college.jpg')}}" title="" alt="">
                         </div>
                         <div class="media-body">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            <h6>Jennifer Lutheran</h6>
-                            <span>CEO at pxdraft</span>
+                            <h5>Higher Secondary School Certificate</h5>
+                            <span>Institute: </span><h6>Feni Government College, Feni</h6>
+                            <span>2013 – 2015</span>
                         </div>
                     </div>
                     <div class="testimonial-01 media">
                         <div class="avatar">
-                            <img src="{{asset('img/team-3.jpg')}}" title="" alt="">
+                            <img src="{{asset('img/Feni_govt_pilot_high_school_old_building.jpeg')}}" title="" alt="">
                         </div>
                         <div class="media-body">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            <h6>Jennifer Lutheran</h6>
-                            <span>CEO at pxdraft</span>
-                        </div>
-                    </div>
-                    <div class="testimonial-01 media">
-                        <div class="avatar">
-                            <img src="{{asset('img/team-1.jpg')}}" title="" alt="">
-                        </div>
-                        <div class="media-body">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            <h6>Jennifer Lutheran</h6>
-                            <span>CEO at pxdraft</span>
+                            <h5>Secondary School Certificate</h5>
+                            <span>Institute: </span><h6>Feni Government Pilot High School, Feni</h6>
+                            <span>2012 - 2013 </span>
                         </div>
                     </div>
                 </div>
@@ -372,7 +370,7 @@
                             <div class="col-md-8 col-xl-9">
                                 <div class="rb-right">
                                     <h6>About Company</h6>
-                                    <p>Working as a Junior Software Engineer in Arena Phone BD Ltd.</p>
+                                    <p>Arena is a software company that has some popular products like Educlerk, Field Force, VMS, and VAS. Additionally, they have multiple government projects.</p>
                                 </div>
                             </div>
                         </div>
@@ -390,7 +388,7 @@
                             <div class="col-md-8 col-xl-9">
                                 <div class="rb-right">
                                     <h6>About Company</h6>
-                                    <p>Working as a Trainee Software Engineer in IT Corner Bangladesh.</p>
+                                    <p>IT Corner is a software company whose clients are foreigners, and they specialize in working with crypto platforms and trading platforms.</p>
                                 </div>
                             </div>
                         </div>
@@ -408,7 +406,7 @@
                             <div class="col-md-8 col-xl-9">
                                 <div class="rb-right">
                                     <h6>About Company</h6>
-                                    <p>Worked as an Intern in Business Automation Ltd.</p>
+                                    <p>Worked as an Intern in Business Automation Ltd. They besically work in Govt. projects.</p>
                                 </div>
                             </div>
                         </div>
@@ -418,10 +416,10 @@
                 <div class="separated"></div>
                 <!-- End separated -->
                 <div class="title">
-                    <h3>Education & Skills</h3>
+                    <h3>Skills</h3>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 m-15px-tb">
+                    {{-- <div class="col-lg-4 m-15px-tb">
                         <ul class="aducation-box">
                             <li>
                                 <span>2010-2012</span>
@@ -439,36 +437,94 @@
                                 <p>International Design Institute</p>
                             </li>
                         </ul>
-                    </div>
-                    <div class="col-lg-7 ml-auto m-15px-tb">
+                    </div> --}}
+                    <!-- programing language -->
+                    
+                    <div class="col-lg-4 m-15px-tb ">
+                        <h6>Programming Languages</h6>
                         <div class="skill-lt">
-                            <h6>HTML5</h6>
-                            <span>92%</span>
-                            <div class="skill-bar">
-                                <div class="skill-bar-in" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </div><!-- /skill -->
-                        <div class="skill-lt">
-                            <h6>WordPress</h6>
-                            <span>75%</span>
-                            <div class="skill-bar">
-                                <div class="skill-bar-in" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div><!-- /skill -->
-                        <div class="skill-lt">
-                            <h6>Magento</h6>
-                            <span>86%</span>
-                            <div class="skill-bar">
-                                <div class="skill-bar-in" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div><!-- /skill -->
-                        <div class="skill-lt">
-                            <h6>UI/UX</h6>
+                            <h6>PHP</h6>
                             <span>88%</span>
                             <div class="skill-bar">
-                                <div class="skill-bar-in" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-bar-in" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- /skill -->
+                        <div class="skill-lt">
+                            <h6>Java</h6>
+                            <span>82%</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div><!-- /skill -->
+                        <div class="skill-lt">
+                            <h6>C++</h6>
+                            <span>75%</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div><!-- /skill -->
+                        <div class="skill-lt">
+                            <h6>HTML</h6>
+                            <span>85%</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div><!-- /skill -->
+                        <div class="skill-lt">
+                            <h6>CSS</h6>
+                            <span>80%</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div><!-- /skill -->
+                    </div>
+                    <!----- framework ---->
+                    
+                    <div class="col-lg-4 ml-auto m-15px-tb">
+                        <h6>Frameworks</h6>
+                        <div class="skill-lt">
+                            <h6>Laravel</h6>
+                            <span>85%</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- /skill -->
+                        <div class="skill-lt">
+                            <h6>CodeIgniter</h6>
+                            <span>85%</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div><!-- /skill -->
+                        <div class="skill-lt">
+                            <h6>CakePHP</h6>
+                            <span>75%</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div><!-- /skill -->
+                    </div>
+                    <!----- database ---->
+                    <div class="col-lg-4 ml-auto m-15px-tb">
+                        <h6>Databases</h6>
+                        <div class="skill-lt">
+                            <h6>MySQL</h6>
+                            <span>85%</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- /skill -->
+                        <div class="skill-lt">
+                            <h6>MSSQL</h6>
+                            <span>85%</span>
+                            <div class="skill-bar">
+                                <div class="skill-bar-in" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                                 </div>
                             </div>
                         </div><!-- /skill -->
@@ -787,11 +843,12 @@
             <div class="row align-items-center">
                 <div class="col-md-6 m-10px-tb">
                     <div class="nav justify-content-center justify-content-md-start">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="https://www.linkedin.com/in/uchchwas-das-61526399/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/uchchwas/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/uchchwas_das"><i class="fab fa-twitter"></i></a>
+                        {{-- <a href="#"><i class="fab fa-instagram"></i></a> --}}
+                        
+                        {{-- <a href="#"><i class="fab fa-pinterest"></i></a> --}}
                     </div>
                 </div>
                 <div class="col-md-6 m-10px-tb text-center text-md-right">
